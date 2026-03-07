@@ -1,0 +1,8 @@
+body {
+  background: url("/images/beached.png") repeat fixed;
+  font-family: "MS UI Gothic", "Mona", Tahoma;
+  animation: scroll 30s linear infinite;
+  background-size: cover;
+  image-rendering: crisp-edges;
+  cursor: url('/cur/star.gif'), auto;
+}
