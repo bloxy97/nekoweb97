@@ -69,6 +69,7 @@ a, .links li:before, .links li:after, .links .last {
   }
   
 .sidebar-image img {
+  image-rendering: crisp-edges;
   border-radius: 0.175em;
   }
 .marquee {
