@@ -1,22 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
 
 body {
-  background: url("/images/bikminbg.png") repeat fixed;
+  background: url("/images/cloudstile.png") repeat fixed;
   font-family: "MS UI Gothic", "Mona", Tahoma;
-  animation: scroll 30s linear infinite;
   cursor: url('/cur/star.gif'), auto;
 }
 
-a:hover {
-  text-decoration: underline;
-  cursor: url('/cur/starclick.gif'), auto;
-}
 a:link {
   text-decoration: none;
+    color: #4e4e4e;
 }
+
 a:visited {
-   text-decoration: none;
+   color: #282828;
   }
+
+a:hover {
+  text-decoration: underline wavy;
+  cursor: url('/cur/starclick.gif'), auto;
+}
+
 @keyframes scroll {
   from {
     background-position: 0 0;
@@ -29,9 +32,9 @@ a:visited {
 
 .box {
 
-  background: rgb(20,20,20,0.85);
-  color: white;
-  border: 5px outset rgb(05,05,05,0.85);
+  background: rgb(230,230,230,0.70);
+  color: black;
+  border: 5px outset rgb(190,190,190,0.85);
   padding: 0.75em 1.25em;
   text-decoration: none;
   }
@@ -64,23 +67,18 @@ a:visited {
   height: 100%;
   text-align: center;
 }
-a, .links li:before, .links li:after, .links .last {
-  color: #1896ca;
-  }
   
 .sidebar-image img {
   image-rendering: crisp-edges;
   border-radius: 0.175em;
   }
 .marquee {
-    background: rgb(20,20,20,0.85);
-
+  background: rgb(230,230,230,0.70);
 	font-family:"MS PGothic", "Mona", sans-serif;
 	font-size: 16pt;
-	line-height: 18px;
-	color: #FFFFFF;
-
-  border: 5px outset rgb(05,05,05,0.85);
+	line-height: 24px;
+	color: black;
+  border: 5px outset rgb(190,190,190,0.85);
   padding: 0.75em 1.25em;
 }
 
