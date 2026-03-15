@@ -68,7 +68,7 @@ body {
   
 /*Container for the sidebar image.*/
 .sidebar-image {
-  border: 1px solid black;
+  border: 0px solid black;
   }
   
 /*Remove extra padding line at the bottom of the image.*/

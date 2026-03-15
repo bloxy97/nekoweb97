@@ -70,7 +70,8 @@ a:hover {
   
 .sidebar-image img {
   image-rendering: crisp-edges;
-  border-radius: 0.175em;
+  border: 5px outset rgba(190, 190, 190, 0.85);
+  max-width: 190px;
   }
 .marquee {
   background: rgb(230,230,230,0.70);
