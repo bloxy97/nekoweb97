@@ -371,7 +371,10 @@
 <!-- FC2 Counter  Ends here -->
               visitors.
             </p>
-            <a href="https://tamanotchi.world/26149c"><img src="https://tamanotchi.world/i2/26149" alt="It's tamaNOTchi! Click to feed!"></a>
+            <a href="https://tamanotchi.world/26149c"><img src="https://tamanotchi.world/i2/26149" alt="It's tamaNOTchi! Click to feed!"></a> <br>
+            <div id="lastheard-container">
+
+            </div>
             <p><a href="/wiki/home#credit">Credits</a></p>
           </div>
         </div>
@@ -569,52 +572,26 @@
         </div>
       </div>
     </div>
-    <!--endless marquee-->
-    <script>
-function handleMarquee() {
-  // Get all marquees on page
-  const marquees = document.querySelectorAll(".marquee");
-  
-  // Loop through each marquee
-  marquees.forEach((marquee) => {
-    // Get the main container and clone it
-    // And then add the clone to the marquee
-    const container = marquee.querySelector(".marquee-items");
-    let clone = container.cloneNode(true);
-    marquee.appendChild(clone);
-    // Finally, add the scroll class at the same time so there is no gaps in the scrolling effect
-    // We also determine if the items should be scrolling right-to-left instead by default, and adjust the marquees flex direction and which animation the containers use if so
-    if (marquee.dataset.direction == "right") {
-      marquee.style.flexDirection = "row-reverse";
-      container.classList.add("scroll-l2r");
-      clone.classList.add("scroll-l2r");
-    } else {
-      container.classList.add("scroll-r2l");
-      clone.classList.add("scroll-r2l");
-    }
-    
-    // !! NEW STUFF FOR PAUSING; COPY BELOW
-    
-    // First we check for the new data attribute to see if pausing this marquee is allowed:
-    if (marquee.dataset.pause == "true") {
-      
-      // If pausing is allowed, we simply add some mouse events for when the mouse
-      // enters and leaves the marquee that add and remove our new 'paused' class to
-      // the .marquee-items containers
-      marquee.onmouseover = e => {
-        container.classList.add("paused");
-        clone.classList.add("paused");
-      }
-      marquee.onmouseout = e => {
-        container.classList.remove("paused");
-        clone.classList.remove("paused");
-      }
-    }
-    
-    // !! END NEW STUFF FOR PAUSING
-  });
-}
-handleMarquee();
+
+    <!--hopefully this works-->
+<script>
+async function displayLastFM() {
+            try {
+                const response = await fetch('https://lastfm-last-played.biancarosa.com.br/bloxy97/latest-song');
+                const data = await response.json();
+                const track = data.track;
+
+                document.getElementById("lastheard-container").innerHTML = `
+                <div id="trackInfo">
+                    <span> <a target="_blank" href="${track.url}">${track.name}</a> - ${track.artist['#text']}</span><br>
+                    <img src="${track.image[1]['#text']}">
+                </div>`;
+            } catch (error) {
+                console.error("Fetching failed: ", error);
+            }
+        };
+
+        displayLastFM();
 </script>
     <!--musicbox-->
    <script>
