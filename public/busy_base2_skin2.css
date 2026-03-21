@@ -75,7 +75,7 @@ a:hover {
   }
 s
 .sidebar {
-  width: 210px;
+  width: 210px !important;
 }
 
 .marquee {
