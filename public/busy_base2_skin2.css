@@ -5,7 +5,7 @@
 
 body {
   background: url("/images/cloudstile.png") repeat fixed;
-  font-family: "MS UI Gothic", "Mona", Tahoma;
+  font-family: "MS UI Gothic", "Mona", Tahoma, sans-serif;
   font-size: 15px;
   cursor: url('/cur/star.gif'), auto;
 }
