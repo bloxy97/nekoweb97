@@ -1,0 +1,103 @@
+body {
+  background: url("/images/beached.png") repeat fixed;
+  font-family: "MS UI Gothic", "Mona", Tahoma;
+  animation: none;
+  background-size: cover;
+  image-rendering: crisp-edges;
+  cursor: url('/cur/star.gif'), auto;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: url('/cur/starclick.gif'), auto;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+   text-decoration: none;
+  }
+@keyframes scroll {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -1909px 0; /* adjust the X offset based on image size */
+  }
+}
+
+
+.box {
+
+  background: rgb(20,20,20,0.85);
+  color: white;
+  border: 5px outset rgb(05,05,05,0.85);
+  padding: 0.75em 1.25em;
+  text-decoration: none;
+  }
+.box img {
+     margin: 0.25em 0.25em;
+   
+}
+.info {
+  position: absolute;
+  display: flex;
+  left: 37%;
+  top: 18%;
+  size: 200%;
+}
+.noborder img {
+  border: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+  all:unset;
+}
+
+	.banner {
+	   border: 5px inset #FFFFFF;
+     margin: 0.25em 0.25em;
+	}
+
+.inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+a, .links li:before, .links li:after, .links .last {
+  color: #1896ca;
+  }
+  
+.sidebar-image img {
+  image-rendering: crisp-edges;
+  border-radius: 0.175em;
+  }
+.marquee {
+    background: rgb(20,20,20,0.85);
+
+	font-family:"MS PGothic", "Mona", sans-serif;
+	font-size: 16pt;
+	line-height: 18px;
+	color: #FFFFFF;
+
+  border: 5px outset rgb(05,05,05,0.85);
+  padding: 0.75em 1.25em;
+}
+
+/*Alternate style of spacers for nav links. Replace with "" for no spacer characters.*/  
+.links li:before {
+  content: " ";
+  }
+
+.links li:after {
+  content: " - ";
+  }
+
+.links .last:after {
+  content: " ";
+  }
+
+/*Increase gap between automatic spacers.*/
+.links li:before, .links li:after {
+  letter-spacing: 0.375em;
+  }
