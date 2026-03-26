@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Destination: Bloxy!</title>
+    <title>It's rude to look when someone isn't ready.</title>
     <!-- The style.css file allows you to change the look of your web pages.
          If you include the next line in all your web pages, they will all share the same look.
          This makes it easier to make new pages for your site. -->
@@ -20,29 +20,34 @@
     <script>
            //set first panel 
            let panelNumber = 1;
+
            //set file path chunks
            const start = '/ssd/img/one/panel'
            const end = '.png'
+
            //set max panel (do this please)
            const maxPanel = 3
+
            //reload panel
            function setPanel() {
             const png = document.getElementById('panel');
             png.src = start.concat(panelNumber.toString(),end); 
            }
+
            //move forward
            function forward() {
             panelNumber += 1;
             if (panelNumber < maxPanel)  {
-                let panelNumber = maxPanel
+                panelNumber = maxPanel
             }
             setPanel();
            }
+
            //move back
            function back() {
             panelNumber -= 1;
             if (panelNumber < 0)  {
-                let panelNumber = 1
+                panelNumber = 1
             }
             setPanel();
            }
