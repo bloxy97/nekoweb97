@@ -10,11 +10,12 @@
     <link href="\ssd.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body onload="setPanel()">
+    This page uses javascript! it won't work without it.
     <div class="viewer">
         <img id="panel" src="/">
     </div>
    <div class="controls">
-    <img id="back" onclick="back()" src="/images/byebye.png">
+    <img id="back" onclick="back()" src="/images/noless.png">
     <img id="forward" onclick="forward()" src="/images/welcomegirlie.png">
    </div>
     <script>
@@ -55,7 +56,7 @@
            function back() {
             panelNumber -= 1;
             fw.src = '/images/welcomegirlie.png'
-            if (panelNumber <= 0)  {
+            if (panelNumber <= 1)  {
                 panelNumber = 1
                 bk.src = '/ssd/img/noless.png'
             }
