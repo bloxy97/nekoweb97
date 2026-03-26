@@ -10,14 +10,28 @@
     <link href="\ssd.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body onload="setPanel()">
-    This page uses javascript! it won't work without it. (also hi napoleonites)
-    <div class="viewer">
-        <img id="panel" src="/">
-    </div>
-   <div class="controls">
-    <img id="back" onclick="back()" src="/ssd/img/noless.png">
-    <img id="forward" onclick="forward()" src="/images/welcomegirlie.png">
-   </div>
+        <span id="top"></span>
+    <div class="wrapper">
+      <div class="main-wrapper">
+        <div class="links">
+          <div class="box">
+            <div class="inner">
+              <p>This page uses javascript! it won't work without it. (also hi napoleonites)</p>
+              <p>↢ N/A - <a href="/ssd/two">FORWARD ↣</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="inner">
+            <div class="viewer">
+            <img id="panel" src="/">
+            </div>
+            <div class="controls">
+            <img id="back" onclick="back()" src="/ssd/img/noless.png">
+            <img id="forward" onclick="forward()" src="/images/welcomegirlie.png">
+            </div>
+          </div>
+        </div>
     <script>
            //set first panel 
            let panelNumber = 1;
