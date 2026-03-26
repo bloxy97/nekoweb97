@@ -8,7 +8,7 @@ body {
 
 .main-wrapper {
   margin-left: 225px;
-  
+  float: center;
   }
 
 a:hover {
