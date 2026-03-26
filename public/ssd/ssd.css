@@ -11,6 +11,11 @@ body {
   float: center;
   }
 
+.main {
+  columns: 1;
+  column-gap: 25px;
+  }
+
 a:hover {
   text-decoration: underline;
   cursor: url('/cur/starclick.gif'), auto;
