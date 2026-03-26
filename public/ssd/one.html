@@ -40,6 +40,7 @@
            //move forward
            function forward() {
             panelNumber += 1;
+            bk.src = '/images/byebye.png'
             if (panelNumber >= maxPanel)  {
                 panelNumber = maxPanel
                 fw.src = '/ssd/img/nomore.png'
@@ -53,6 +54,7 @@
            //move back
            function back() {
             panelNumber -= 1;
+            fw.src = '/images/welcomegirlie.png'
             if (panelNumber <= 0)  {
                 panelNumber = 1
                 bk.src = '/ssd/img/noless.png'
