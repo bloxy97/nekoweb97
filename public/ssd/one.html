@@ -37,7 +37,7 @@
            //move forward
            function forward() {
             panelNumber += 1;
-            if (panelNumber < maxPanel)  {
+            if (panelNumber >= maxPanel)  {
                 panelNumber = maxPanel
             }
             setPanel();
@@ -46,7 +46,7 @@
            //move back
            function back() {
             panelNumber -= 1;
-            if (panelNumber < 0)  {
+            if (panelNumber <= 0)  {
                 panelNumber = 1
             }
             setPanel();
