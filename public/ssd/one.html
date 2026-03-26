@@ -7,15 +7,15 @@
     <!-- The style.css file allows you to change the look of your web pages.
          If you include the next line in all your web pages, they will all share the same look.
          This makes it easier to make new pages for your site. -->
-    <link href="\none.css" rel="stylesheet" type="text/css" media="all">
+    <link href="\ssd.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body onload="setPanel()">
     <div class="viewer">
         <img id="panel" src="/">
     </div>
    <div class="controls">
-    <img onclick="back()" src="/images/byebye.png">
-    <img onclick="forward()" src="/images/welcomegirlie.png">
+    <img id="back" onclick="back()" src="/images/byebye.png">
+    <img id="forward" onclick="forward()" src="/images/welcomegirlie.png">
    </div>
     <script>
            //set first panel 
@@ -27,6 +27,9 @@
 
            //set max panel (do this please)
            const maxPanel = 3
+           //set img
+           const fw = document.getElementById('forward');
+           const bk = document.getElementById('back');
 
            //reload panel
            function setPanel() {
@@ -39,6 +42,7 @@
             panelNumber += 1;
             if (panelNumber >= maxPanel)  {
                 panelNumber = maxPanel
+                fw.src = '/ssd/img/nomore.png'
             }
             setPanel();
            }
@@ -48,6 +52,7 @@
             panelNumber -= 1;
             if (panelNumber <= 0)  {
                 panelNumber = 1
+                bk.src = '/ssd/img/noless.png'
             }
             setPanel();
            }
