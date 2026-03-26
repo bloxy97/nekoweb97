@@ -2,13 +2,13 @@ body {
   background: url("/images/Hourglassdog.gif") repeat;
   font-family: "MS UI Gothic", "Mona", Tahoma;
   animation: none;
-  background-size: cover;
   image-rendering: crisp-edges;
   cursor: url('/cur/star.gif'), auto;
 }
 
 .main-wrapper {
-  margin-left: 50%;
+  margin-left: 225px;
+  
   }
 
 a:hover {
