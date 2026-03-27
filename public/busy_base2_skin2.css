@@ -3,6 +3,11 @@
   src: url(https://bloxy97.neocities.org/mona.woff)
   }
 
+@font-face {
+  font-family: 'MS UI Gothic';
+  src: url(https://raw.githubusercontent.com/07th-mod/ui-editing-scripts/refs/heads/master/assets/fonts/MS-Gothic.ttf)
+  }
+
 body {
   background: url("/images/cloudstile.png") repeat fixed;
   font-family: "MS UI Gothic","Noto Sans Japanese", "Mona", "Tahoma", sans-serif;
