@@ -1,16 +1,12 @@
-@font-face {
-  font-family: 'Mona';
-  src: url(https://bloxy97.neocities.org/mona.woff)
-  }
 
-/* @font-face {
-  font-family: 'MS UI Gothic';
-  src: url(https://raw.githubusercontent.com/xerysherry/uEmuera/refs/heads/master/Assets/Resources/Fonts/MS%20PGothic.ttf)
-  } */
+@font-face {
+  font-family: 'MS PGothic';
+  src: url(/msgoth.woff2)
+  }
 
 body {
   background: url("/images/cloudstile.png") repeat fixed;
-  font-family: "MS UI Gothic","Noto Sans Japanese", "Mona", "Tahoma", sans-serif;
+  font-family: "MS PGothic","Noto Sans Japanese", "Tahoma", sans-serif;
   font-size: 15px;
   cursor: url('/cur/star.gif'), auto;
 }
