@@ -3,10 +3,10 @@
   src: url(https://bloxy97.neocities.org/mona.woff)
   }
 
-@font-face {
+/* @font-face {
   font-family: 'MS UI Gothic';
   src: url(https://raw.githubusercontent.com/xerysherry/uEmuera/refs/heads/master/Assets/Resources/Fonts/MS%20PGothic.ttf)
-  }
+  } */
 
 body {
   background: url("/images/cloudstile.png") repeat fixed;
