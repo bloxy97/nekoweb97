@@ -1,5 +1,5 @@
 body {
-  background-image: url("/images/Hourglassdog.gif") repeat;
+  background-image: url("/images/Hourglassdog.gif") repeat !important;
   background: #454545;
   font-family: "MS UI Gothic", "Mona", "Tahoma", "Noto Sans Japanese", sans-serif;
   animation: none;
