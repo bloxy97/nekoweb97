@@ -1,6 +1,7 @@
 body {
-  background: url("/images/Hourglassdog.gif") repeat;
-  font-family: "MS UI Gothic", "Mona", Tahoma;
+  background: #454545;
+  background-image: url("/images/Hourglassdog.gif") repeat;
+  font-family: "MS UI Gothic", "Mona", "Tahoma", "Noto Sans Japanese", sans-serif;
   animation: none;
   image-rendering: crisp-edges;
   cursor: url('/cur/star.gif'), auto;
