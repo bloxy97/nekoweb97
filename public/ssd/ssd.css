@@ -1,8 +1,14 @@
+
+@font-face {
+  font-family: 'MS PGothic';
+  src: url(/msgoth.woff2)
+  }
+
 body {
   background-image: url("/images/Hourglassdog.gif") repeat !important;
-  background: #454545;
-  font-family: "MS UI Gothic", "Mona", "Tahoma", "Noto Sans Japanese", sans-serif;
-  animation: none;
+  background-color: #454545;
+  font-family: "MS PGothic", "Mona", "Tahoma", "Noto Sans Japanese", sans-serif;
+  font-size: 18px;  
   image-rendering: crisp-edges;
   cursor: url('/cur/star.gif'), auto;
 }

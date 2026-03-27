@@ -1,3 +1,9 @@
+
+@font-face {
+  font-family: 'MS PGothic';
+  src: url(/msgoth.woff2)
+  }
+
 .text{
   font-family: "MS PGothic", "Mona", sans-serif;
   position: absolute;

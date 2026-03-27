@@ -1,6 +1,13 @@
+
+@font-face {
+  font-family: 'MS PGothic';
+  src: url(/msgoth.woff2)
+  }
+
 body {
   background: url("/images/beached.png") repeat fixed;
-  font-family: "MS UI Gothic", "Mona", Tahoma;
+  font-family: "MS PGothic", "Mona", Tahoma;
+  font-size: 18px;
   animation: none;
   background-size: cover;
   image-rendering: crisp-edges;
