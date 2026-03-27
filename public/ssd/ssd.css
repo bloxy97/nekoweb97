@@ -11,6 +11,10 @@ body {
   float: center;
   }
 
+.sidebar {
+  width: 0px;
+  }
+
 .main {
   columns: 1;
   column-gap: 25px;
