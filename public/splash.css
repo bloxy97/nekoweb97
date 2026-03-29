@@ -20,20 +20,15 @@
 .citadel {
   image-rendering: pixelated;
   width: 690px;
-  height: 1380px;
-  background-image: url("/images/citadel.png");
+  height: 100%;
+  background-image: url("/images/citadels.gif");
   background-size: 100%;
   position: fixed;
   background-repeat: no-repeat;
-  bottom: 5%;
+  bottom: 0%;
+  background-position: bottom;
 }
-
-.grout {
-  /* I am Grout! */
-  image-rendering: pixelated;
-  background-image: url("/images/grout.png");
-}
-
+ 
 .splash {
   position: relative;
   display: block;
@@ -43,7 +38,7 @@
 }
 
 body {
-  background: url("/images/splashbg.png") repeat;
+  background: url("/images/cloudstile.png") repeat;
   cursor: url('/cur/star.gif'), auto;
 }
 
