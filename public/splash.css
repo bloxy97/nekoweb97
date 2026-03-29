@@ -17,9 +17,21 @@
   width: 467px;
 }
 
-.citadel img {
+.citadel {
   image-rendering: pixelated;
-  background-image: url("images/citadel.png");
+  width: 690px;
+  height: 1380px;
+  background-image: url("/images/citadel.png");
+  background-size: 100%;
+  position: fixed;
+  background-repeat: no-repeat;
+  bottom: 5%;
+}
+
+.grout {
+  /* I am Grout! */
+  image-rendering: pixelated;
+  background-image: url("/images/grout.png");
 }
 
 .splash {
