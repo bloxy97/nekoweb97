@@ -5,7 +5,7 @@
   }
 
 body {
-  background-image: url("/ssd/img/mono.png") repeat !important;
+  background-image: url("/ssd/img/mono.png") repeat-x black;
   font-family: "MS PGothic", "Mona", "Tahoma", "Noto Sans Japanese", sans-serif;
   font-size: 18px;  
   image-rendering: crisp-edges;
