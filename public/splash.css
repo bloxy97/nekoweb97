@@ -17,6 +17,11 @@
   width: 467px;
 }
 
+.citadel img {
+  image-rendering: pixelated;
+  background-image: url("images/citadel.png");
+}
+
 .splash {
   position: relative;
   display: block;
