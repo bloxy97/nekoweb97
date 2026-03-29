@@ -5,8 +5,7 @@
   }
 
 body {
-  background-image: url("/images/Hourglassdog.gif") repeat !important;
-  background-color: #454545;
+  background-image: url("/ssd/img/mono.png") repeat !important;
   font-family: "MS PGothic", "Mona", "Tahoma", "Noto Sans Japanese", sans-serif;
   font-size: 18px;  
   image-rendering: crisp-edges;
