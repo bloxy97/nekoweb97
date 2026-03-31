@@ -58,6 +58,13 @@ a:visited {
      margin: 0.25em 0.25em;
    
 }
+
+.viewer img {
+  width: 500px;
+  height: auto;
+  image-rendering: pixelated;
+}
+
 .info {
   position: absolute;
   display: flex;
