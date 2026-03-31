@@ -5,7 +5,7 @@
   }
 
 body {
-  background-image: url("/ssd/img/mono.png") repeat-x black;
+  background: url("/ssd/img/mono.png") repeat-x black;
   font-family: "MS PGothic", "Mona", "Tahoma", "Noto Sans Japanese", sans-serif;
   font-size: 18px;  
   image-rendering: crisp-edges;
@@ -48,9 +48,9 @@ a:visited {
 
 .box {
 
-  background: rgb(20,20,20,0.85);
+  background: rgb(20,20,20);
   color: white;
-  border: 5px outset rgb(05,05,05,0.85);
+  border: 5px outset rgb(05,05,05,0.95);
   padding: 0.75em 1.25em;
   text-decoration: none;
   }
@@ -84,7 +84,7 @@ a:visited {
   text-align: center;
 }
 a, .links li:before, .links li:after, .links .last {
-  color: #1896ca;
+  color: #c5c5c5;
   }
   
 .sidebar-image img {
@@ -92,13 +92,11 @@ a, .links li:before, .links li:after, .links .last {
   border-radius: 0.175em;
   }
 .marquee {
-    background: rgb(20,20,20,0.85);
-
+  background: rgb(20,20,20,0.85);
 	font-family:"MS PGothic", "Mona", sans-serif;
 	font-size: 16pt;
 	line-height: 18px;
 	color: #FFFFFF;
-
   border: 5px outset rgb(05,05,05,0.85);
   padding: 0.75em 1.25em;
 }
