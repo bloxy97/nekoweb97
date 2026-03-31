@@ -48,9 +48,9 @@ a:visited {
 
 .box {
 
-  background: rgb(20,20,20);
-  color: white;
-  border: 5px outset rgb(05,05,05,0.95);
+  background: white;
+  color: black;
+  border: 5px outset rgba(255, 255, 255, 0.95);
   padding: 0.75em 1.25em;
   text-decoration: none;
   }
@@ -84,7 +84,7 @@ a:visited {
   text-align: center;
 }
 a, .links li:before, .links li:after, .links .last {
-  color: #c5c5c5;
+  color: #7d7d7d;
   }
   
 .sidebar-image img {
