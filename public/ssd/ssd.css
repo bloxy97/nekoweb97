@@ -48,9 +48,9 @@ a:visited {
 
 .box {
 
-  background: white;
+  background: rgb(234, 234, 234);
   color: black;
-  border: 5px outset rgba(255, 255, 255, 0.95);
+  border: 5px outset rgba(234, 234, 234, 0.95);
   padding: 0.75em 1.25em;
   text-decoration: none;
   }
