@@ -65,6 +65,10 @@ a:visited {
   image-rendering: pixelated;
 }
 
+.controls img {
+  cursor: url('/cur/starclick.gif'), auto;
+}
+
 .info {
   position: absolute;
   display: flex;
@@ -102,6 +106,7 @@ a:hover {
   image-rendering: crisp-edges;
   border-radius: 0.175em;
   }
+
 .marquee {
   background: rgb(20,20,20,0.85);
 	font-family:"MS PGothic", "Mona", sans-serif;
