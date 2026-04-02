@@ -29,7 +29,7 @@
             </div>
             <div class="controls">
             <img id="back" onclick="back()" src="/ssd/img/noless.png">
-            <img id="forward" onclick="forward()" src="/images/welcomegirlie.png">
+            <img id="forward" onclick="forward()" src="/images/next.gif">
             </div>
           </div>
         </div>
@@ -67,13 +67,13 @@
            //move forward
            function forward() {
             panelNumber += 1;
-            bk.src = '/images/byebye.png'
+            bk.src = '/images/back.gif'
             if (panelNumber >= maxPanel)  {
                 panelNumber = maxPanel
                 fw.src = '/ssd/img/nomore.png'
             }
             else {
-                fw.src = '/images/welcomegirlie.png'
+                fw.src = '/images/next.gif'
             }
             setPanel();
            }
@@ -81,13 +81,13 @@
            //move back
            function back() {
             panelNumber -= 1;
-            fw.src = '/images/welcomegirlie.png'
+            fw.src = '/images/next.gif'
             if (panelNumber <= 1)  {
                 panelNumber = 1
                 bk.src = '/ssd/img/noless.png'
             }
             else {
-                bk.src = '/images/byebye.png'
+                bk.src = '/images/back.gif'
             }
             setPanel();
            }
