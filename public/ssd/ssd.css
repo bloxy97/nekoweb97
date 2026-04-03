@@ -12,6 +12,14 @@ body {
   cursor: url('/cur/star.gif'), auto;
 }
 
+@keyframes pressfr {
+ 50% {content:url("/ssd/img/nomore.png")}
+}
+
+@keyframes pressbk {
+ 50% {content:url("/ssd/img/noless.png")}
+}
+
 .main-wrapper {
   margin-left: 225px;
   float: center;
