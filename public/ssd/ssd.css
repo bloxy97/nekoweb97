@@ -12,14 +12,6 @@ body {
   cursor: url('/cur/star.gif'), auto;
 }
 
-@keyframes pressfr {
- 50% {content:url("/ssd/img/nomore.png")}
-}
-
-@keyframes pressbk {
- 50% {content:url("/ssd/img/noless.png")}
-}
-
 .main-wrapper {
   margin-left: 225px;
   float: center;
@@ -76,14 +68,19 @@ a:visited {
 }
 
 .glack:active img {
-  animation-name: pressbk;
-  animation-duration: 1s;
-  
+  animation: pressbk 0.5s;
 }
 
 .borward:active img {
-  animation-name: pressfr;
-  animation-duration: 1s;
+  animation: pressfr 0.5s;
+}
+
+@keyframes pressfr {
+ from {content:url("/ssd/img/nomore.png")}
+}
+
+@keyframes pressbk {
+ from {content:url("/ssd/img/noless.png")}
 }
 
 .info {
