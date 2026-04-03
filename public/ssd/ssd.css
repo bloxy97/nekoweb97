@@ -12,10 +12,12 @@ body {
   cursor: url('/cur/star.gif'), auto;
 }
 
-
-
 @keyframes pressfr {
  50% {content:url("/ssd/img/nomore.png")}
+}
+
+@keyframes pressbk {
+ 50% {content:url("/ssd/img/noless.png")}
 }
 
 .main-wrapper {
@@ -64,6 +66,8 @@ a:visited {
 
 .controls img {
   cursor: url('/cur/starclick.gif'), auto;
+  width: 80px;
+  height: auto;
 }
 
 .glack, .borward {
@@ -72,14 +76,14 @@ a:visited {
 }
 
 .glack:active img {
-  animation-name: pressfr;
-  animation-duration: 500ms;
+  animation-name: pressbk;
+  animation-duration: 1s;
   
 }
 
 .borward:active img {
   animation-name: pressfr;
-  animation-duration: 500ms;
+  animation-duration: 1s;
 }
 
 .info {
