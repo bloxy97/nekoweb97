@@ -64,11 +64,14 @@ a:visited {
 
 .controls img {
   cursor: url('/cur/starclick.gif'), auto;
+  width: fit-content;
+  display: inline;
 }
 
 .glack:active img {
   animation-name: pressfr;
   animation-duration: 500ms;
+  
 }
 
 .borward:active img {
