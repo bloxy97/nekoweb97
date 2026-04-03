@@ -64,6 +64,9 @@ a:visited {
 
 .controls img {
   cursor: url('/cur/starclick.gif'), auto;
+}
+
+.glack, .borward {
   width: fit-content;
   display: inline;
 }
