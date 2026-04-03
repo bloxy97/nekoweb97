@@ -12,12 +12,10 @@ body {
   cursor: url('/cur/star.gif'), auto;
 }
 
+
+
 @keyframes pressfr {
  50% {content:url("/ssd/img/nomore.png")}
-}
-
-@keyframes pressbk {
- 50% {content:url("/ssd/img/noless.png")}
 }
 
 .main-wrapper {
@@ -75,6 +73,11 @@ a:visited {
 
 .controls img {
   cursor: url('/cur/starclick.gif'), auto;
+}
+
+.controls:focus img {
+  animation-name: pressfr;
+  animation-duration: 500ms;
 }
 
 .info {
