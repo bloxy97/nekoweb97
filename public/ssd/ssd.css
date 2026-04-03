@@ -42,15 +42,6 @@ a:link {
 a:visited {
    text-decoration: none;
   }
-@keyframes scroll {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: -1909px 0; /* adjust the X offset based on image size */
-  }
-}
-
 
 .box {
 
@@ -75,7 +66,12 @@ a:visited {
   cursor: url('/cur/starclick.gif'), auto;
 }
 
-.controls:focus img {
+.glack:active img {
+  animation-name: pressfr;
+  animation-duration: 500ms;
+}
+
+.borward:active img {
   animation-name: pressfr;
   animation-duration: 500ms;
 }
