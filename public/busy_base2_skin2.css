@@ -25,6 +25,10 @@ a:hover {
   cursor: url('/cur/starclick.gif'), auto;
 }
 
+.lastfm img {
+  border: 5px inset rgb(190,190,190,0.85);
+}
+
 @keyframes scroll {
   from {
     background-position: 0 0;
@@ -62,10 +66,10 @@ a:hover {
   all:unset;
 }
 
-	.banner {
+.banner {
 	   border: 5px inset #FFFFFF;
      margin: 0.25em 0.25em;
-	}
+}
 
 .inner {
   width: 100%;
