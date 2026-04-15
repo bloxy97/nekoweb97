@@ -6,7 +6,7 @@
 
 .text{
   font-family: "MS PGothic", "Mona", sans-serif;
-  position: absolute;
+  float: center;
   top: center;
   left: center;
   margin-left: auto;
