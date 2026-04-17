@@ -1,12 +1,12 @@
 
 @font-face {
-  font-family: 'MS PGothic';
-  src: url(/msgoth.woff2)
+  font-family: 'Mona';
+  src: url(/mona.woff)
   }
 
 body {
   background: url("/images/cloudstile.png") repeat fixed;
-  font-family: "MS PGothic","Noto Sans Japanese", "Tahoma", sans-serif;
+  font-family: MS PGothic, "Mona", Noto Sans Japanese, Tahoma, sans-serif;
   font-size: 18px;
   cursor: url('/cur/star.gif'), auto;
 }
@@ -86,7 +86,7 @@ a:hover {
   
 .sidebar-image img {
   image-rendering: crisp-edges;
-  border: 5px outset rgba(190, 190, 190, 0.85);
+  border: 3px outset rgba(190, 190, 190, 0.85);
   max-width: 200px;
   }
 s
@@ -100,7 +100,7 @@ s
 	font-size: 16pt;
 	line-height: 24px;
 	color: black;
-  border: 5px outset rgb(190,190,190,0.85);
+  border: 3px outset rgb(190,190,190,0.85);
   padding: 0.75em 1.25em;
 }
 
