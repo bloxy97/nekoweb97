@@ -38,9 +38,9 @@ a:visited {
   }
 
 .box {
-  background: rgb(234, 234, 234);
+  background: rgb(255, 255, 255);
   color: black;
-  border: 5px outset rgba(255, 255, 255, 0.95);
+  border: 3px outset rgba(0, 0, 0, 0.95);
   padding: 0.75em 1.25em;
   text-decoration: none;
   }
@@ -97,10 +97,10 @@ a:visited {
   all:unset;
 }
 
-	.banner {
-	   border: 5px inset #FFFFFF;
-     margin: 0.25em 0.25em;
-	}
+.banner {
+    border: 5px inset #FFFFFF;
+    margin: 0.25em 0.25em;
+}
 
 .inner {
   width: 100%;
@@ -131,19 +131,10 @@ a:hover {
 }
 
 /*Alternate style of spacers for nav links. Replace with "" for no spacer characters.*/  
-.links li:before {
+li:before {
   content: " ";
   }
 
-.links li:after {
-  content: " - ";
-  }
-
-.links .last:after {
-  content: " ";
-  }
-
-/*Increase gap between automatic spacers.*/
-.links li:before, .links li:after {
-  letter-spacing: 0.375em;
+li:after {
+  content: " ▪ ";
   }
