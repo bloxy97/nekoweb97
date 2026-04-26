@@ -7,6 +7,12 @@
   
 }
 
+.giko {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .under {
   text-align: center;
   color: black;
