@@ -8,7 +8,7 @@ body {
   background: url("/ssd/img/mono.png") repeat-x #FFF;
   font-family: "MS PGothic", "Mona", "Tahoma", "Noto Sans Japanese", sans-serif;
   font-size: 18px;  
-  background-position: bottom;
+  background-position: bottom right;
   image-rendering: pixelated;
   cursor: url('/cur/star.gif'), auto;
 }
