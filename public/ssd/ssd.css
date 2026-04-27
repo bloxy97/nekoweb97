@@ -9,7 +9,7 @@ body {
   font-family: "MS PGothic", "Mona", "Tahoma", "Noto Sans Japanese", sans-serif;
   font-size: 18px;  
   background-position: bottom;
-  image-rendering: crisp-edges;
+  image-rendering: pixelated;
   cursor: url('/cur/star.gif'), auto;
 }
 
