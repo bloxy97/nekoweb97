@@ -5,10 +5,10 @@
   }
 
 body {
-  background: url("/ssd/img/mono.png") repeat-x #FFF;
+  background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%) #FFF;
   font-family: "MS PGothic", "Mona", "Tahoma", "Noto Sans Japanese", sans-serif;
   font-size: 18px;  
-  background-position: bottom right;
+  background-position: bottom;
   image-rendering: pixelated;
   cursor: url('/cur/star.gif'), auto;
 }
