@@ -13,6 +13,7 @@ body {
   cursor: url('/cur/star.gif'), auto;
   background-size: contain;
   background-repeat: repeat-x;
+  background-size: revert;
 }
 
 
