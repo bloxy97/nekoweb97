@@ -5,13 +5,16 @@
   }
 
 body {
-  background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%) #FFF;
+  background: url(/ssd/img/mono.png) #000;
   font-family: "MS PGothic", "Mona", "Tahoma", "Noto Sans Japanese", sans-serif;
   font-size: 18px;  
   background-position: bottom;
   image-rendering: pixelated;
   cursor: url('/cur/star.gif'), auto;
+  background-size: contain;
+  background-repeat: repeat-x;
 }
+
 
 .main-wrapper {
   margin-right: 111px; 
