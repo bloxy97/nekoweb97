@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSD - FOUR</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/busy_base2.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="/ssd/ssd.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" type="image/x-icon" href="/ssd/img/ico.gif">
+  </head>
+  <body onload="setPanel()">
+        <span id="top"></span>
+    <div class="wrapper">
+      <div class="main-wrapper">
+        <div class="links">
+          <div class="box">
+            <div class="inner">
+              <p>This page uses javascript! it won't work without it.</p>
+              <p><a href="/ssd/three">↢ BACK</a> - <a href="/ssd/home">HOME</a> - <a href="/ssd/five">FORWARD ↣</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="inner">
+            <div class="viewer">
+            <img id="panel" src="/">
+            </div>
+            <div class="controls">
+              <div class="glack">
+                <img id="back" onclick="back()" src="/ssd/img/noless.png">
+              </div>
+              <div class="borward">
+                <img id="forward" onclick="forward()" src="/ssd/img/next.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="box">
+            <div class="inner">
+                site template made by
+                <a href="https://eggramen.neocities.org">EGGRAMEN!</a>
+                <a href="#top"><img src="/images/back.gif"/></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+           //set first panel 
+           let panelNumber = 1;
+
+           //set file path chunks
+           const start = '/ssd/img/four/panel'
+           const end = '.png'
+
+           //set max panel (do this please)
+           const maxPanel = 12
+           //set imgs for forward/back
+           const fw = document.getElementById('forward');
+           const bk = document.getElementById('back');
+
+           //reload panel
+           function setPanel() {
+            const png = document.getElementById('panel');
+            png.src = start.concat(panelNumber.toString(),end); 
+           }
+
+           //move forward
+           function forward() {
+            panelNumber += 1;
+            bk.src = '/ssd/img/back.png'
+            if (panelNumber >= maxPanel)  {
+                panelNumber = maxPanel
+                fw.src = '/ssd/img/nomore.png'
+            }
+            else {
+                fw.src = '/ssd/img/next.png'
+            }
+            setPanel();
+           }
+
+           //move back
+           function back() {
+            panelNumber -= 1;
+            fw.src = '/ssd/img/next.png'
+            if (panelNumber <= 1)  {
+                panelNumber = 1
+                bk.src = '/ssd/img/noless.png'
+            }
+            else {
+                bk.src = '/ssd/img/back.png'
+            }
+            setPanel();
+           }
+    </script>
+  </body>
+</html>
