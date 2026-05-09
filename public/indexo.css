@@ -1,1 +1,26 @@
-/* blah blah blah */
+ @font-face {
+  font-family: 'Mona';
+  src: url(/mona.woff)
+  }
+
+.giko {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border: 1px outset #FFF !important;
+  outline: 1px inset #FFF; 
+  outline-offset: -6px;
+  background: #EFEFEF !important;
+  margin-block: 15px
+}
+
+body {
+  font-family: Mona, MS PGothic;
+}
+
+.center {
+  left: 50%;
+  top: 50%;
+  text-align: center;
+}
