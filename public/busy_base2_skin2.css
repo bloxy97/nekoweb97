@@ -6,7 +6,7 @@
 
 body {
   background: url("/images/cloudstile.png") repeat fixed;
-  font-family: MS PGothic, "Mona", Noto Sans Japanese, Tahoma, sans-serif;
+  font-family: "Mona", Noto Sans Japanese, Tahoma, sans-serif;
   font-size: 14px;
   cursor: url('/cur/star.gif'), auto;
 }
