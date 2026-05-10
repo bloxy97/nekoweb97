@@ -5,10 +5,10 @@
   }
 
 body {
-  background: url(/ssd/img/mono.png) #FFF;
+  background: url(/ssd/img/mono.png) #000000;
   font-family: "MS PGothic", "Mona", "Tahoma", "Noto Sans Japanese", sans-serif;
   font-size: 18px;  
-  background-position: bottom right;
+  background-position: top right;
   image-rendering: pixelated;
   cursor: url('/cur/star.gif'), auto;
   background-size: contain;
