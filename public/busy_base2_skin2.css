@@ -7,7 +7,7 @@
 body {
   background: url("/images/cloudstile.png") repeat fixed;
   font-family: "Mona", Noto Sans Japanese, Tahoma, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   cursor: url('/cur/star.gif'), auto;
 }
 
@@ -96,7 +96,7 @@ s
 
 .marquee {
   background: rgb(230,230,230,0.70);
-	font-family:"MS PGothic", "Mona", sans-serif;
+	font-family:"Mona", Noto Sans Japanese, Tahoma, sans-serif;
 	font-size: 16pt;
 	line-height: 24px;
 	color: black;

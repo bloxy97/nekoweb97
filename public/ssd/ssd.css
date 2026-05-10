@@ -18,7 +18,8 @@ body {
 
 
 .main-wrapper {
-  margin-right: 111px; 
+  margin-right: 111px;
+  margin-left: 111px;
   float: center;
   }
 
