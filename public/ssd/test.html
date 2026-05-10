@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSD - TWO</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/busy_base2.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="/ssd/ssd.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" type="image/x-icon" href="/ssd/img/ico.gif">
+  </head>
+  <body>
+  <script src='/ruffle/ruffle.js'></script>
+  <span id="top"></span>
+    <div class="wrapper">
+      <div class="main-wrapper">
+        <div class="links">
+          <div class="box">
+            <div class="inner">
+              <p>This page uses Ruffle! it won't work without it. (It's built in already...)</p>
+              <p>↢ N/A - <a href="/ssd/home">HOME</a> - N/A ↣</p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="inner">
+            <div class="viewer">
+              <div id='ruffle'></div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="box">
+            <div class="inner">
+                site template made by
+                <a href="https://eggramen.neocities.org">EGGRAMEN!</a>
+                <a href="#top"><img src="/images/back.gif"/></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+var swfobject = {};
+
+swfobject.embedSWF = function(url, cont, width, height){
+    var ruffle = window.RufflePlayer.newest(),
+        player = Object.assign(document.getElementById(cont).appendChild(ruffle.createPlayer()), {
+            width: width,
+            height: height,
+            style: 'width: ' + width + 'px; height: ' + height + 'px',
+        });
+    
+    player.load({ url: url });
+}
+
+swfobject.embedSWF('https://files.catbox.moe/deo1as.swf', 'ruffle', 500, 420);
+        </script>
+  </body>
+</html>
