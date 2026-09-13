@@ -12,6 +12,19 @@
     <link href="\splash.css" rel="stylesheet" type="text/css" media="all">
     <link rel="icon" type="image/x-icon" href="./images/ico.gif">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/interact.js/1.10.17/interact.min.js"></script>
+    <style>
+      #golden {
+        display: none;
+        animation: view 3s linear ;
+        animation-iteration-count: 1;
+      }
+
+      @keyframes view{
+        0% {display: none}
+        99% {display: none}
+        100% {display: auto}
+      }
+    </style>
   </head>
   
   <body onload="syobonRandomize()" id="syobon">
@@ -38,7 +51,7 @@
     <a href="javascript:history.back()"><img src="images/byebye.png"></a>
    </div>
    </div>
-   <div style="position: absolute;display: flex;top: 400px;left: 400px;"><a href="./him/"><img src="./him/goldenfreddystamp.png"></a></div>
+   <div id="golden" style="position: absolute;display: flex;top: 400px;left: 400px;"><a href="./him/"><img src="./him/goldenfreddystamp.png"></a></div>
    <script>
             // here you tell InteractJS which class of items you'd like to be draggable
       interact('.draggable')

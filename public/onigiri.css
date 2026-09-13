@@ -11,6 +11,7 @@
   border: 1px solid black;
   outline: 1px solid;
   outline-offset: 3px;
+  height: 397px;
 }
 
 .giko {
@@ -24,9 +25,9 @@
   color: black;
   font-family: MS PGothic;
 }
+
 .body {
   background: linear-gradient(#29ceff,#ff8cbd,#ffffff,#ff8cbd,#29ceff);
-
 }
 
 .center {
