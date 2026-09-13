@@ -28,6 +28,7 @@
   background-repeat: no-repeat;
   width: 816px;
   height: 690px;
+  z-index: 10;
 }
 
 body {
