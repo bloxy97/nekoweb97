@@ -45,9 +45,11 @@ function loadSound(name){
 }
 
 function playSound(name, event, wait, banner,  options,){
-  
-  const e = event
+  const e = event 
+
+  if (event != null) {
   e.preventDefault(); 
+    }
 
   var musicst = window.localStorage.getItem('musicState');
   var sound = sounds[name];
@@ -68,7 +70,9 @@ function playSound(name, event, wait, banner,  options,){
       volume.gain.value = soundVolume;
     }
 
-    const link = e.currentTarget.href;
+    if (event != null){
+      var link = e.currentTarget.href;
+    }
 
     if (musicst == 'dislike'){
         volume.gain.value = 0
