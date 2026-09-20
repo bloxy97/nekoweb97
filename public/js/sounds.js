@@ -45,11 +45,11 @@ function loadSound(name){
 }
 
 function playSound(name, event, wait, banner,  options,){
-  const e = event
-  var musicst = window.localStorage.getItem('musicState');
   
-    e.preventDefault(); 
+  const e = event
+  e.preventDefault(); 
 
+  var musicst = window.localStorage.getItem('musicState');
   var sound = sounds[name];
   var soundVolume = sounds[name].volume || 1;
 
@@ -91,9 +91,6 @@ function playSound(name, event, wait, banner,  options,){
         }, wait); 
     } else {
         source.addEventListener('ended', () => window.location.href= link)
-    }
-
-     source.addEventListener('ended', () => window.location.href= link)
-    
+    }    
   }
 }
