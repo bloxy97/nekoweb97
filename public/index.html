@@ -29,7 +29,7 @@
   
   <body onload="syobonRandomize()" id="syobon">
     <!-- nekoweb try not to randomly delete my site when i push a commit challenge-->
-  <audio loop="" id="musick"><source src="/misc/puyo.mp3" type="audio/mp3">  get audio LOSER!!!!!!!!!!!!! ahahahahah</audio>
+  <audio loop="" id="musick"><source src="/misc/sfx/puyo.mp3" type="audio/mp3">  get audio LOSER!!!!!!!!!!!!! ahahahahah</audio>
     <div class="splash draggable">
    <div class="text">
     <p>welcome! you should probably read this</p>
@@ -47,8 +47,8 @@
    <div class="orbs">
     <div class="fish"><img id="fish" onclick="toggleAudio()" src="/misc/carbydislike.png"></div>
     <a href="https://www.mabsland.com/Adoption.html"><img src="./misc/14.gif"></a>
-    <a href="home.html"><img src="images/welcomegirlie.png"></a>
-    <a href="javascript:history.back()"><img src="images/byebye.png"></a>
+    <a href="home.html" onclick="playSound('bass', event)"> <img src="images/welcomegirlie.png"></a>
+    <a href="javascript:history.back()" onclick="playSound('burp', event, 500)"><img src="images/byebye.png"></a>
    </div>
    </div>
    <div id="golden" style="position: absolute; top: 400px;left: 400px;"><a href="./him/"><img src="./him/goldenfreddystamp.png"></a></div>
@@ -85,5 +85,7 @@
       window.dragMoveListener = dragMoveListener
    </script>
    <script type="text/javascript" src="./js/music.js"></script>
+            <script type="text/javascript" src="./js/sounds.js"></script>
+   <script type="text/javascript" src="./js/sounds.js"></script>
 </body>
 </html>
