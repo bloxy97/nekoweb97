@@ -64,14 +64,6 @@ li::marker {
   margin-left: -2px;
 }
 
-.bar img:hover {
-  filter: blur(1px);
-}
-
-.bar img:active {
-  filter: blur(3px);
-}
-
 .bar {
   margin: 5px -10px;
 }
