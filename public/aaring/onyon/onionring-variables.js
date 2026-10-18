@@ -12,7 +12,8 @@ var wname = [
     'Hal',
     'AY',
     'nagisa',
-    'WencesByte'
+    'WencesByte',
+    'sidney citrus'
 ];
 
 // AND THEIR VESSEL?
@@ -22,7 +23,8 @@ var sname = [
     'HAL',
     `AY's site`,
     'nagisako',
-    'wencesbyte.net'
+    'wencesbyte.net',
+    'SIDNEYSCAPE'
 ];
 
 // SELECT THE LINK THAT YOU PREFER.
@@ -32,7 +34,8 @@ var sites = [
     'https://hal.nekoweb.org/',
     'https://ay-3-8910-online.w10.site/',
     'https://nagisako.neocities.org',
-    'https://wencesbyte.net'
+    'https://wencesbyte.net',
+    'https://sidneyscape.space/'
 ];
 
 // SELECT THE IMAGE THAT YOU PREFER.
@@ -42,7 +45,8 @@ var sbutton = [
     'https://hal.nekoweb.org/sitebutton.png',
     'https://files.catbox.moe/l3g0r4.png',
     'https://nagisako.neocities.org/images/buttons/taskbar/blonde%20moment.jpg',
-    'https://wencesbyte.net/img/webbutton.gif'
+    'https://wencesbyte.net/img/webbutton.gif',
+    'https://sidneyscape.space/sidneyscape-button.gif'
 ];
 
 // HOW WOULD YOU DESCRIBE YOUR VESSEL? (IT WILL NOT HEAR.)
@@ -52,7 +56,8 @@ var desc = [
 `A comprehensive personal blog (that's more like a wiki in reality)`,
 'A random site where I put my stuff I guess',
 'peach-scented princess castle',
-'My personal site with programs, games, art and more stuff!'
+'My personal site with programs, games, art and more stuff!',
+'my personal cityscape, home to my art, characters, and anything that interests me!'
 ];
 
 // NOW, GIVE IT A GIFT.
@@ -62,7 +67,8 @@ var tags = [
     `（　´∀｀）`,
     ``,
     `<丶｀∀´>`,
-    ''
+    '',
+    `（　´∀｀） (14+)`
 ];
 
 //the name of the ring
