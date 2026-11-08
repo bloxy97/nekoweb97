@@ -14,7 +14,8 @@ var wname = [
     'nagisa',
     'WencesByte',
     'sidney citrus',
-    'caar1960'
+    'caar1960',
+    'Riley'
 ];
 
 // AND THEIR VESSEL?
@@ -26,7 +27,8 @@ var sname = [
     'nagisako',
     'wencesbyte.net',
     'SIDNEYSCAPE',
-    'caar1960 page'
+    'caar1960 page',
+    `Riley's Pastries`
 ];
 
 // SELECT THE LINK THAT YOU PREFER.
@@ -38,7 +40,8 @@ var sites = [
     'https://nagisako.neocities.org',
     'https://wencesbyte.net',
     'https://sidneyscape.space/',
-    'https://caar1960-page.neocities.org/'
+    'https://caar1960-page.neocities.org/',
+    'https://rileyspastries.neocities.org/'
 ];
 
 // SELECT THE IMAGE THAT YOU PREFER.
@@ -50,7 +53,8 @@ var sbutton = [
     'https://nagisako.neocities.org/images/buttons/taskbar/blonde%20moment.jpg',
     'https://wencesbyte.net/img/webbutton.gif',
     'https://sidneyscape.space/sidneyscape-button.gif',
-    'https://caar1960-page.neocities.org/page%20button.gif'
+    'https://caar1960-page.neocities.org/page%20button.gif',
+    'https://file.garden/adAwfDIzEjff9g5K/buttons/sitebutton1.gif'
 ];
 
 // HOW WOULD YOU DESCRIBE YOUR VESSEL? (IT WILL NOT HEAR.)
@@ -62,7 +66,8 @@ var desc = [
 'peach-scented princess castle',
 'My personal site with programs, games, art and more stuff!',
 'my personal cityscape, home to my art, characters, and anything that interests me!',
-`My website is basically where I post my Source Filmmaker renders, reviews from my YouTube channel, blog posts, and also share my favorite things. For now, it's in Spanish, but I'm planning an English version.`
+`My website is basically where I post my Source Filmmaker renders, reviews from my YouTube channel, blog posts, and also share my favorite things. For now, it's in Spanish, but I'm planning an English version.`,
+'A bakery of sweet treats and new friends!!!'
 ];
 
 // NOW, GIVE IT A GIFT.
@@ -74,7 +79,8 @@ var tags = [
     `<丶｀∀´>`,
     '',
     `（　´∀｀）`,
-    '（　´∀｀）'
+    '（　´∀｀）',
+    ''
 ];
 
 //the name of the ring

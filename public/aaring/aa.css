@@ -98,3 +98,8 @@ textarea {
 #index td, #index tr th {
     padding: 5px
 }
+
+#index table img {
+    width: 88px;
+    height: 31px;
+}
