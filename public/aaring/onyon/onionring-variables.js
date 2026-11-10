@@ -54,7 +54,7 @@ var sbutton = [
     'https://wencesbyte.net/img/webbutton.gif',
     'https://sidneyscape.space/sidneyscape-button.gif',
     'https://caar1960-page.neocities.org/page%20button.gif',
-    'https://file.garden/adAwfDIzEjff9g5K/buttons/sitebutton1.gif'
+    'https://file.garden/adAwfDIzEjff9g5K/buttons/sitebutton.gif'
 ];
 
 // HOW WOULD YOU DESCRIBE YOUR VESSEL? (IT WILL NOT HEAR.)
