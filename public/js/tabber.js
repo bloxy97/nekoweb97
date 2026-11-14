@@ -1,6 +1,6 @@
 const url = new URLSearchParams(window.location.search);
 
-const tabis = url.get('tabis')
+var tabis = url.get('tabis')
 
 if (tabis == null) {
     tabis = "t1"
