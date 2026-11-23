@@ -1,0 +1,48 @@
+body {
+    background: #262626;
+    color: white;
+}
+
+.light {
+    background: #e9e9e9 !important;
+    color: black;
+}
+
+:root {
+ --goner: url(https://file.garden/arWmstmTd9f1Fn8Q/goner.png);
+ --gonerstare: url(https://file.garden/arWmstmTd9f1Fn8Q/goner2.png);
+ --gonertalk: url(https://file.garden/arWmstmTd9f1Fn8Q/gonertalk.gif);
+}
+.goner2 {
+ --goner: url(https://file.garden/arWmstmTd9f1Fn8Q/fiscus.png);
+ --gonerstare: url(https://file.garden/arWmstmTd9f1Fn8Q/fiscus2.png);
+ --gonertalk: url(https://file.garden/arWmstmTd9f1Fn8Q/fiscustalk.gif);
+}
+.goner3 {
+ --goner: url(https://file.garden/arWmstmTd9f1Fn8Q/normal.png);
+ --gonerstare: url(https://file.garden/arWmstmTd9f1Fn8Q/normal2.png);
+ --gonertalk: url(https://file.garden/arWmstmTd9f1Fn8Q/normaltalk.gif);
+}
+.goner4 {
+ --goner: url(https://file.garden/arWmstmTd9f1Fn8Q/kid.png);
+ --gonerstare: url(https://file.garden/arWmstmTd9f1Fn8Q/kid2.png);
+ --gonertalk: url(https://file.garden/arWmstmTd9f1Fn8Q/kidtalk.gif);
+}
+
+.group-31-playbutton {
+    display: inline-block;
+    position: absolute;
+    background: var(--goner);
+    height: 47px;
+    width: 42px;
+    border: 0;
+    cursor: pointer;
+    margin-top: -14px;
+    margin-left: -43px;
+}
+.group-31-playbutton:hover {
+    background: var(--gonerstare)
+}
+.group-31-playbutton:focus {
+    background: var(--gonertalk)
+}

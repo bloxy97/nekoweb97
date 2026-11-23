@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="0; url=./20years.html" /> -->
+    <title>Ha ha.</title>
+    <link href="goner.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+<body>
+<form id="fontForm">
+            <span>BG</span><br>
+            <label for="dark">dark</label><input type="radio" name="fontChanger" selected="selected" id="dark" onclick="Dark()">
+            <label for="light">light</label><input type="radio" name="fontChanger" id="fontBig" onclick="Light()">
+            <br>    
+            <span>Choose a goner</span><br>
+            <label for="goners">Donut</label><input type="radio" name="fontChanger" selected="selected" id="dark" onclick="Goner()">
+            <label for="goners">Fiscus</label><input type="radio" name="fontChanger" id="fontBig" onclick="Goner('goner2')">
+            <label for="goners">Normal</label><input type="radio" name="fontChanger" id="fontBig" onclick="Goner('goner3')">
+            <label for="goners">Kid</label><input type="radio" name="fontChanger" id="fontBig" onclick="Goner('goner4')">
+          </form>
+          <br>
+          <br>
+          <li class="icons">
+            <img class="group-31" alt="*" src="https://file.garden/arWmstmTd9f1Fn8Q/title.png"><button id="goner" onclick="gonerNoise.play()" class="group-31-playbutton"></button>
+        </li>
+
+<script>
+const gonerNoise=new Audio('/goner/garbage_noise.ogg')
+
+function Goner(goner) {
+    const char = goner
+    const org = "group-31-playbutton "
+
+    if (goner == null) {
+        document.getElementById("goner").classList.value = org;
+        return
+    }
+
+    var location = org.concat(char); 
+
+    document.getElementById("goner").classList.value = location;
+    
+}
+
+function Light() {
+  document.body.classList.add('light');
+  window.localStorage.setItem('theme', 'light');
+}
+
+function Dark() {
+  document.body.classList.remove('light');
+  window.localStorage.setItem('matari-font', 'dark');
+}
+</script>
+</body>
+</html>
