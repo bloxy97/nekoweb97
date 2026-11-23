@@ -13,6 +13,10 @@ regex = /^https:\/\/|\/$/g; //strips the https:// and trailing slash off the url
 table = "";
 for (i = 0; i < sites.length; i++) {
   
+  if (tags[i] ==  undefined) {
+    tags[i] = ''
+  }
+
   table += `
   <tr>
   <td><a href='${sites[i]}'>${sname[i].replace(regex, "")}</a><br><br>${tags[i].replace(regex, "")}</td>
